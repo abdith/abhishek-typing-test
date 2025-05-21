@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhishek Typing Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Abhishek Typing Test</h1>
+    <input type="text" id="username" placeholder="Enter your name" />
+    <p id="quote">Click "Start Test" to begin</p>
+    <textarea id="input" placeholder="Start typing here..." disabled></textarea>
+    <div class="results">
+      <p>Time: <span id="time">0</span>s</p>
+      <p>WPM: <span id="wpm">0</span></p>
+      <p>Accuracy: <span id="accuracy">0</span>%</p>
+    </div>
+    <button id="start-btn">Start Test</button>
+
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <thead>
+        <tr><th>Name</th><th>WPM</th><th>Accuracy</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
